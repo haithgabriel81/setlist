@@ -1,0 +1,18 @@
+OPEN THE GAME IN VS CODE
+
+1. Extract this ZIP (Windows: right-click > Extract All).
+2. In VS Code, choose File > Open Folder and select Encore_Festival_Draft.
+3. For a browser preview, use the Live Server extension and open dist/index.html with Live Server.
+   The game loads artists.json, so use a local server instead of double-clicking index.html.
+   Alternative if Python is installed: run python -m http.server 8000 --directory dist
+   from the project folder, then visit http://localhost:8000.
+
+WHAT TO EDIT
+- dist/index.html: page text and layout
+- dist/styles.css: colors, fonts and spacing
+- dist/game.js: rules, scoring and fictional festival budget
+- dist/artists.json: artists and their stats
+- scripts/build_artists.py: data generator; running it overwrites artists.json
+
+These are the current game source files. Editing this download does not automatically update the live website.
+No payments or ads are included.
